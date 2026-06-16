@@ -65,7 +65,7 @@ function Technologies() {
 
                 {/* ── Heading ── */}
                 <h2 className="text-5xl md:text-6xl font-bold text-[#f0f0ee] leading-tight tracking-tight mb-4">
-                    TOOL's I build <br />
+                    Tool's I build <br />
                     <span className="text-[#8892a0] font-normal">with every day.</span>
                 </h2>
 
