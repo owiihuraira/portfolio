@@ -1,7 +1,7 @@
 // TechCard.jsx
 function TechCard({ name, logo, description, level }) {
     return (
-        <div className="group relative bg-[#0d1117] border border-[#00d4ff]/10 hover:border-[#00d4ff]/40 rounded-none p-6 transition-all duration-300 hover:bg-[#0d1117]/80 w-full">
+        <div className="group relative bg-[#0d1117] border border-[#00d4ff]/10 hover:border-[#00d4ff]/40 rounded-md p-6 transition-all duration-300 hover:bg-[#0d1117]/80 w-full">
 
             {/* Top accent line on hover */}
             <div className="absolute top-0 left-0 h-0.5 w-0 bg-[#00d4ff] group-hover:w-full transition-all duration-300" />

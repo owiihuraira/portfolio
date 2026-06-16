@@ -34,7 +34,7 @@ function Contact() {
         <section id="contact" className="relative bg-[#0a0e14] py-32 px-6 md:px-16 overflow-hidden">
 
             {/* Glow blob */}
-            <div className="absolute bottom-[-80px] left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-[#00d4ff] opacity-[0.04] rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-125 h-75 bg-[#00d4ff] opacity-[0.04] rounded-full blur-[100px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto">
 
@@ -66,7 +66,7 @@ function Contact() {
 
                         {/* Primary CTA */}
                         <a
-                            href="mailto:hk4470272@gmail.com"
+                            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
                             className="group inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a0e14] px-7 py-3 text-sm font-bold tracking-wide uppercase hover:bg-white transition-colors duration-200"
                         >
                             Send Me an Email
@@ -87,10 +87,10 @@ function Contact() {
                                 className="group flex items-center gap-5 bg-[#0d1117] border border-[#00d4ff]/10 hover:border-[#00d4ff]/40 px-6 py-4 transition-all duration-300 relative overflow-hidden"
                             >
                                 {/* Hover left accent */}
-                                <span className="absolute left-0 top-0 h-full w-[2px] bg-[#00d4ff] scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
+                                <span className="absolute left-0 top-0 h-full w-0.5 bg-[#00d4ff] scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-top" />
 
                                 {/* Icon */}
-                                <span className="text-[#00d4ff] flex-shrink-0">{icon}</span>
+                                <span className="text-[#00d4ff]">{icon}</span>
 
                                 {/* Text */}
                                 <div className="flex flex-col">

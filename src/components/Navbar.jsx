@@ -77,10 +77,10 @@ function Navbar() {
 
                 {/* ── Desktop CTA ── */}
                 <a 
-                    href="#contact"
+                    href="/contact"
                     className="hidden md:inline-flex items-center gap-2 border border-[#00d4ff]/50 text-[#00d4ff] text-xs font-bold tracking-[0.15em] uppercase px-5 py-2 hover:bg-[#00d4ff] hover:text-[#0a0e14] transition-all duration-200"
                 >
-                    Hire Me
+                    Get In Touch
                 </a>
 
                 {/* ── Mobile Hamburger ── */}

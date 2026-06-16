@@ -87,10 +87,10 @@ function Introduction() {
                 {/* ── CTA ── */}
                 <div className="mt-8">
                     <a
-                        href="/about"
+                        href="/projects"
                         className="group inline-flex items-center gap-2 text-[#00d4ff] text-xs font-bold tracking-[0.2em] uppercase hover:gap-4 transition-all duration-200"
                     >
-                        Learn More About Me
+                        See My Projects
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
