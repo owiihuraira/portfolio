@@ -4,6 +4,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Technologies from "./pages/Technologies";
+import Project from "./pages/Project";
 import Feedback from "./pages/Feedback"
 import Introduction from "./pages/Introduction";
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/technology" element={<Technologies />} />
           <Route path="/introduction" element={<Introduction />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/projects" element={<Project />} />
         </Routes>
     </BrowserRouter>
   );
