@@ -28,10 +28,18 @@ const projects = [
     {
         id: 4,
         image: "/project4.png",
-        title: "Project Four",
+        title: "Ui-Dashboard",
         tag: "React · CSS",
         description: "A component-driven React project showcasing reusable architecture, state management, and responsive layouts.",
         live: "https://normal-dashboard.vercel.app/",
+    },
+    {
+        id: 5,
+        image: "/project5.png",
+        title: "Desserts Menu",
+        tag: "Next · Tailwind",
+        description: "A component-driven Next project showcasing reusable architecture, beautiful menu's, and responsive layouts.",
+        live: "https://deserts-menu.vercel.app/",
     },
 ];
 
@@ -45,7 +53,7 @@ function ProjectCard({ image, title, tag, description, live, code }) {
             onMouseLeave={() => setHovered(false)}
         >
             {/* Top accent line */}
-            <div className="absolute top-0 left-0 h-[2px] w-0 bg-[#00d4ff] group-hover:w-full transition-all duration-300 z-10" />
+            <div className="absolute top-0 left-0 h-0.5 w-0 bg-[#00d4ff] group-hover:w-full transition-all duration-300 z-10" />
 
             {/* Image */}
             <div className="relative overflow-hidden h-52">
@@ -83,7 +91,7 @@ function Projects() {
         <section id="projects" className="relative bg-[#0a0e14] py-32 px-6 md:px-16 overflow-hidden">
 
             {/* Glow blob */}
-            <div className="absolute bottom-[-60px] left-[-60px] w-[400px] h-[400px] bg-[#00d4ff] opacity-[0.04] rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute -bottom-15 -left-15 w-100 h-100 bg-[#00d4ff] opacity-[0.04] rounded-full blur-[100px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto">
 
