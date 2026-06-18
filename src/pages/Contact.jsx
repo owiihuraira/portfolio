@@ -66,7 +66,9 @@ function Contact() {
 
                         {/* Primary CTA */}
                         <a
-                            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=hk4470272@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="group inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a0e14] px-7 py-3 text-sm font-bold tracking-wide uppercase hover:bg-white transition-colors duration-200"
                         >
                             Send Me an Email
